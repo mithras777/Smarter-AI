@@ -1,0 +1,5 @@
+USING mage
+//This archetype is intended for smarter than average humanoids like bosses
+
+// Modifier used as a starting point for using items, 0 disables
+USE_ITEM_MODIFIER						0.4

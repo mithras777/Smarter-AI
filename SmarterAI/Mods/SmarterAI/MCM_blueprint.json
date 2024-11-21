@@ -1,0 +1,138 @@
+{
+    "SchemaVersion": 1,
+    "ModName": "Smarter AI",
+    "Tabs": [
+        {
+            "TabId": "combat_modifiers",
+            "TabName": "Combat Modifiers",
+            "Sections": [
+                {
+                    "SectionId": "combat_modifiers_section",
+                    "SectionName": "Combat Modifiers",
+                    "Settings": [
+                        {
+                            "Id": "DisableJump",
+                            "Name": "Disable Jumps",
+                            "Type": "checkbox",
+                            "Default": true,
+                            "Description": "Enemies cannot use Jumps.",
+                            "Handles": {
+                                "NameHandle": "heb7f5d1eae794676bd6ffeb7abc8398556e4",
+                                "DescriptionHandle": "h05dd62ac3b15489ea68056daa9ac2a6f8075"
+                            }
+                        },
+                        {
+                            "Id": "DisengageIsFree",
+                            "Name": "Unlimited Disengage",
+                            "Type": "checkbox",
+                            "Default": true,
+                            "Description": "Enemies have permanent Disengage.",
+                            "Handles": {
+                                "NameHandle": "h85a91af099d641fe87be429174d38b3d1165",
+                                "DescriptionHandle": "hc0cbbec206f9481787b802fe20e4ab0b9a3f"
+                            }
+                        },
+                        {
+                            "Id": "OneDash",
+                            "Name": "Start with Dash",
+                            "Type": "checkbox",
+                            "Default": true,
+                            "Description": "Enemies start with one turn of Dash.",
+                            "Handles": {
+                                "NameHandle": "h9057b0c3864f4134a54eacbeef688e326gdf",
+                                "DescriptionHandle": "h40d5ca2d5614465c9f19cfd945277a7e4f13"
+                            }
+                        },
+                        {
+                            "Id": "StartWithDash",
+                            "Name": "Unlimited Dash",
+                            "Type": "checkbox",
+                            "Default": false,
+                            "Description": "Enemies have permanent Dash.",
+                            "Handles": {
+                                "NameHandle": "h790641825ef74594bed409f16b8d1bcfa415",
+                                "DescriptionHandle": "hbedaf715fe004e5a85d0337cadd86e3d3308"
+                            }
+                        },
+                        {
+                            "Id": "DisableDash",
+                            "Name": "Disable Dashes",
+                            "Type": "checkbox",
+                            "Default": false,
+                            "Description": "Enemies cannot use Dash.",
+                            "Handles": {
+                                "NameHandle": "h1fa64826c5ce42e9bfc17d3c42a293fa050c",
+                                "DescriptionHandle": "hfb002a0785c944d0a29779f485de5e30714e"
+                            }
+                        },
+                        {
+                            "Id": "FreeJump",
+                            "Name": "Free Jumps",
+                            "Type": "checkbox",
+                            "Default": false,
+                            "Description": "Enemies have free Jumps, they don't cost a Bonus Action.",
+                            "Handles": {
+                                "NameHandle": "hc6a94208697b4ec1afb352609d74e38670db",
+                                "DescriptionHandle": "h6fb798ef0b5d43749ff6f25a24e04ef0cde8"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TabId": "ai_settings",
+            "TabName": "AI Settings",
+            "Sections": [
+                {
+                    "SectionId": "ai_settings_section",
+                    "SectionName": "AI Settings",
+                    "Settings": [
+                        {
+                            "Id": "ProficiencyBonus",
+                            "Name": "Enable Proficiency Bonus",
+                            "Type": "checkbox",
+                            "Default": true,
+                            "Description": "Enemies gains proficiency in all weapon types, shields and armors.\nRecommended for most users.",
+                            "Handles": {
+                                "NameHandle": "h9cb97e21fcf742508fce504cf10981dc7gbf",
+                                "DescriptionHandle": "hd9af2072c4c2457bac7e3c131285de3e175d"
+                            }
+                        },
+                        {
+                            "Id": "Advantageous",
+                            "Name": "Enable Advantage Bonus",
+                            "Type": "checkbox",
+                            "Default": true,
+                            "Description": "Enemies gain Advantage on all Abilities, Saving Throws, Attack Rolls and Concentration.",
+                            "Handles": {
+                                "NameHandle": "h88e8d4a41a284562bd1dcf59cb0fe0fceaa1",
+                                "DescriptionHandle": "hbe601e5c8da049fbb0cabfd989e5e4effc8f"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TabId": "debug_settings",
+            "TabName": "Debug Settings",
+            "Sections": [
+                {
+                    "SectionId": "debug_settings_section",
+                    "SectionName": "Debug Settings",
+                    "Settings": [
+                        {
+                            "Id": "Debug",
+                            "Name": "Debug",
+                            "Type": "checkbox",
+                            "Default": false,
+                            "Description": "Displays enemy's archetype, and displays any spell's caster and target in the console.\nShould help with figuring out which archetype is being buggy.",
+                            "Handles": {"NameHandle": "x", "DescriptionHandle": "x"}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

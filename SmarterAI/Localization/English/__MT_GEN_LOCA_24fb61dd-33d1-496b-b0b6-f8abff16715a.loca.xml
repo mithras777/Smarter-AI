@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h9057b0c3864f4134a54eacbeef688e326gdf" version="1">Start with Dash</content>
+	<content contentuid="hc6a94208697b4ec1afb352609d74e38670db" version="1">Free Jumps</content>
+	<content contentuid="h790641825ef74594bed409f16b8d1bcfa415" version="1">Unlimited Dash</content>
+	<content contentuid="h85a91af099d641fe87be429174d38b3d1165" version="1">Unlimited Disengage</content>
+	<content contentuid="h40d5ca2d5614465c9f19cfd945277a7e4f13" version="1">Enemies start with one free dash</content>
+	<content contentuid="h6fb798ef0b5d43749ff6f25a24e04ef0cde8" version="1">Enemies have free jumps, they don't cost bonus actions.</content>
+	<content contentuid="hbedaf715fe004e5a85d0337cadd86e3d3308" version="1">Enemies have permanent dash</content>
+	<content contentuid="hc0cbbec206f9481787b802fe20e4ab0b9a3f" version="1">Enemies have permanent disengage.</content>
+	<content contentuid="h9cb97e21fcf742508fce504cf10981dc7gbf" version="1">Enable Proficiency Bonus</content>
+	<content contentuid="hd9af2072c4c2457bac7e3c131285de3e175d" version="1">Enemies gains proficiency in all weapon types, shields and armors. Recommended for most users.</content>
+	<content contentuid="heb7f5d1eae794676bd6ffeb7abc8398556e4" version="1">Disable Jumps</content>
+	<content contentuid="h05dd62ac3b15489ea68056daa9ac2a6f8075" version="1">Enemies cannot use jumps.</content>
+	<content contentuid="hfb002a0785c944d0a29779f485de5e30714e" version="1">Enemies cannot use Dash.</content>
+	<content contentuid="h1fa64826c5ce42e9bfc17d3c42a293fa050c" version="1">Disable Dashes</content>
+	<content contentuid="h88e8d4a41a284562bd1dcf59cb0fe0fceaa1" version="1">Enable Advantage Bonus</content>
+	<content contentuid="hbe601e5c8da049fbb0cabfd989e5e4effc8f" version="1">Enemies gain Advantage on all Abilities, Saving Throws, Attack Rolls and Concentration.</content>
+	<content contentuid="h7985e5f2918a40498ffc054b1db0ccb982c0" version="1">Enemies cannot use Shove.</content>
+	<content contentuid="h5e6e47685a2141eab1367b02779e5bbb273c" version="1">Disable Shove</content>
+</contentList>

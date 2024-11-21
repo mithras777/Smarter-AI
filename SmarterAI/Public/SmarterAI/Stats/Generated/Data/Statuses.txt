@@ -1,0 +1,54 @@
+new entry "STEP_OF_THE_WIND_FREE"
+type "StatusData"
+data "StatusType" "BOOST"
+// Step of the Wind
+data "DisplayName" "h1d553970g7ee0g4268g9dbeg81ea881399fb;1"
+// Jumping no longer requires a <LSTag Type="ActionResource" Tooltip="BonusActionPoint">bonus action</LSTag>.
+data "Description" "hf9ce7c6eg3eb7g4d8bgafeagcb5e423b7b76;2"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Icon" "Action_Monk_StepOfTheWind_Dash"
+data "StackId" "STEP_OF_THE_WIND"
+data "TickType" "EndTurn"
+data "Boosts" "UnlockSpellVariant(SpellId('Projectile_Jump'),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint))"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "DASH_FREE"
+type "StatusData"
+data "StatusType" "BOOST"
+// Dash
+data "DisplayName" "h959ca771g9f8ag4fe2gb1b6g06c1f1a2f0db;1"
+// <LSTag Tooltip="MovementSpeed">Movement
+data "Description" "h5c3c1ad2g9e46g4e8eg8b34ge0cbf7c556c3;2"
+data "Icon" "Action_Dash"
+data "SoundVocalStart" "NONE"
+data "SoundLoop" "Spell_Status_Dash_MO"
+data "SoundStop" "Spell_Status_Dash_MO_Stop"
+data "StackId" "DASH"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Boosts" "ActionResourceMultiplier(Movement,200,0);IF(HasPassive('Mobile_DashAcrossDifficultTerrain', context.Source)):StatusImmunity(DIFFICULT_TERRAIN);IF(HasPassive('Mobile_DashAcrossDifficultTerrain', context.Source)):StatusImmunity(DIFFICULT_TERRAIN_MUD);IF(HasPassive('Mobile_DashAcrossDifficultTerrain', context.Source)):StatusImmunity(DIFFICULT_TERRAIN_VINES)"
+
+
+new entry "DISENGAGE_FREE"
+type "StatusData"
+data "StatusType" "BOOST"
+// Disengage
+data "DisplayName" "h43d12b95g0adag4015ga25eg5e5ba66ff7ce;1"
+// Can move without provoking <LSTag Tooltip="OpportunityAttack">Opportunity Attacks</LSTag>.
+data "Description" "hb3ed1e5egade8g4824g869egafd62aff8023;3"
+data "Icon" "statIcons_Disengage"
+data "SoundVocalStart" "DODGE"
+data "StackId" "DISENGAGE"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "TickType" "EndTurn"
+data "Boosts" "IgnoreLeaveAttackRange()"
+
+new entry "ADVANTAGEOUS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "AI_HELPERS"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Boosts" "Advantage(AllSavingThrows);Advantage(AllAbilities);Advantage(AttackRoll);Advantage(Concentration)"
+
+
