@@ -1,8 +1,8 @@
 Smarter AI - MCM
 
 Improves enemy and boss AI in Baldur's Gate 3 by adding smarter archetypes, advanced combat tactics, and specific NPC behaviors.
-
-Key Features
+**
+Key Features**
 
 General AI Improvements
 
